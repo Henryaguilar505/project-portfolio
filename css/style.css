@@ -174,3 +174,55 @@ footer .copyright{
     text-align: center;
 }
 
+/*contact*/
+.contact{
+    background-color: var(--quinto);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 3rem;
+    color: white;
+    margin: 0 auto;
+    border-radius: 3rem;
+    font-size: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form input, .form .field_input--textarea{
+    border-radius: 1rem;
+    border-style: none;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.form input{
+    height: 4rem;
+}
+
+.form .field_input--textarea{
+    height: 12rem;
+    width: 100%;
+}
+
+.form .field .button{
+    background-color: white;
+    width: 10rem;
+    height: 5rem;
+    color: var(--primario);
+    font-weight: bold;
+}
+
+.form .field .button:hover{
+    background-color: var(--secundario);
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+}

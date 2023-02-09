@@ -56,6 +56,11 @@ h3{
     font-size: 2.4rem;
 }
 
+ul{
+    margin-top: 0;
+    padding-left: 0;
+}
+
 .mb{
     margin-bottom: 12rem;
 }
@@ -89,12 +94,6 @@ h3{
  .header a:hover{
     color: var(--primario);
  }
-
- .header ul{
-    margin-top: 0;
-    padding-left: 0;
- }
-
 
 
 .header li{
@@ -130,10 +129,13 @@ h3{
 
 .about-me_img{
     width: 25%;
+    min-width: 14rem;
 }
 
 .about-me_info{
     width: 60%;
+    min-width: 28rem;
+    padding: 0 2rem;
 }
 
 /*my projects*/

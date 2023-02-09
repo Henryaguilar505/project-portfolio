@@ -165,10 +165,19 @@ ul{
 
 .my-skills{
     display: flex;
-    justify-content:space-around;
-    gap: 8rem;
+    flex-direction: column;
+    align-items:center;
     width: 60%;
     margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+    .my-skills{
+        flex-direction: row;
+        justify-content:space-around;
+        gap: 8rem;
+        
+    }
 }
 
 

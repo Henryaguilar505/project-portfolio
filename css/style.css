@@ -175,6 +175,7 @@ ul{
     .my-skills{
         flex-direction: row;
         justify-content:space-around;
+        align-items: baseline;
         gap: 8rem;
         
     }
@@ -227,12 +228,18 @@ footer .copyright{
     background-color: var(--quinto);
     display: flex;
     flex-direction: column;
-    width: 60%;
-    padding: 3rem;
     color: white;
     margin: 0 auto;
     border-radius: 3rem;
     font-size: 2rem;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .contact{
+        width: 60%;
+        padding: 3rem;
+    }
 }
 
 .form{

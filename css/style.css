@@ -5,6 +5,7 @@
     --tercero: #6592fe;
     --cuarto: #36c3fe;
     --quinto: #8c61ff;
+
 }
 
 html{
@@ -64,13 +65,22 @@ h3{
 }
 
 /*header*/
-
 .header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 768px) {
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
 
 .header  a:visited{
     color: var(--secundario);
@@ -80,14 +90,27 @@ h3{
     color: var(--primario);
  }
 
+ .header ul{
+    margin-top: 0;
+    padding-left: 0;
+ }
+
+
 
 .header li{
-    display: inline;
-    margin-left: 1rem;
-    padding-left: 1rem;
-    border-left: 1px solid var(--secundario);
+    display: block;
+    margin-bottom: 1rem;
 }
 
+@media (min-width: 768px) {
+    .header li{
+        display: inline;
+        margin-left: 1rem;
+        padding-left: 1rem;
+        border-left: 1px solid var(--secundario); 
+    }
+     
+}
 
 
 /*about me*/

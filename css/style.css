@@ -142,9 +142,23 @@ ul{
 
 .my-projects{
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
     gap: 8rem;
     text-align:center;
+}
+
+.my-projects img{
+    width: 80%;
+}
+
+@media (min-width: 768px) {
+    .my-projects{
+        flex-direction:row;
+    }
+
+    .my-projects img{
+        width: 100%;
+    }
 }
 
 /*skills*/

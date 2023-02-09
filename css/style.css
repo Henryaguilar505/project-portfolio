@@ -18,8 +18,65 @@ html{
 
 /*globales*/
 body{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: var(--secundario);
+
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header  a:visited{
+    color: var(--secundario);
+ }
+
+ .header a:hover{
+    color: var(--primario);
+ }
+
+
+.header li{
+    display: inline;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid var(--secundario);
 }
 

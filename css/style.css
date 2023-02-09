@@ -133,4 +133,32 @@ h3{
 }
 
 
+/*footer*/
+footer{
+    background-color: var(--primario);
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer i{
+    font-size: 4rem;
+    margin-right: 2rem;
+}
+
+.footer li{
+    color: white;
+    display: inline;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid white;
+}
+
+.footer a:visited, h3{
+    color: white;
+}
 

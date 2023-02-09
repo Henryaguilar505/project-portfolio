@@ -80,3 +80,27 @@ h3{
     border-left: 1px solid var(--secundario);
 }
 
+
+
+/*about me*/
+.about-me{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--quinto);
+    padding: 3rem;
+    color: white;
+    
+}
+
+.about-me h2{
+    color: white;
+}
+
+.about-me_img{
+    width: 25%;
+}
+
+.about-me_info{
+    width: 60%;
+}

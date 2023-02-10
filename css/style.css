@@ -86,7 +86,8 @@ ul{
 }
 
 
-
+/*agregando especificidad a los links
+solucionando errores de colores*/
 .header  a:visited, .header a{
     color: var(--secundario);
  }
@@ -232,6 +233,8 @@ footer{
     }
 }
 
+/*Agregando especificida a los links 
+solucionado erroes de colores*/
 .footer a:visited, .footer h3, .footer a{
     color: white;
 }

@@ -87,7 +87,7 @@ ul{
 
 
 
-.header  a:visited{
+.header  a:visited, .header a{
     color: var(--secundario);
  }
 
@@ -190,6 +190,8 @@ footer{
     padding: 1rem;
 }
 
+
+
 .footer{
     display: flex;
     flex-direction: column;
@@ -219,7 +221,6 @@ footer{
 .footer li{
     color: white;
     display: block;
- 
 }
 
 @media (min-width: 768px) {
@@ -231,7 +232,7 @@ footer{
     }
 }
 
-.footer a:visited, .footer h3{
+.footer a:visited, .footer h3, .footer a{
     color: white;
 }
 
